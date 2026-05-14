@@ -1,0 +1,11 @@
+# speed limit warning
+"""
+Created on Tue Feb 10 13:43:02 2026
+
+@author: shambhuraj
+"""
+speed =int(input("enter the speed of vehical:"))
+if speed>60:
+    print("overspeeding! fine will be issued")
+else:
+    print("speed is within the limit drive safely!")
