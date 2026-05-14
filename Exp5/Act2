@@ -1,0 +1,18 @@
+# A class attendance system stores roll numbers in sets. Find students present in both.
+"""
+Created on Mon Apr 27 10:13:37 2026
+
+@author: shambhuraj
+"""
+
+# # Creating two sets for attendance
+classA = {1, 2, 3, 4, 5}
+classB = {4, 5, 6, 7, 8}
+
+print("Class A Attendance:", classA)
+print("Class B Attendance:", classB)
+
+# Finding students present in both classes
+common_students = classA.intersection(classB)
+
+print("\nStudents present in both classes:")
