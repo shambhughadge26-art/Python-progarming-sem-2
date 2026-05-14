@@ -1,0 +1,18 @@
+# A library dictionary stores book name and price. Update book price.
+"""
+Created on Mon Apr 27 10:10:11 2026
+
+@author: shambhuraj
+"""
+# Library dictionary
+library = {
+    "Python Basics": 300,
+    "Data Structures": 450,
+    "AI Fundamentals": 600
+}
+
+# Update price of a book
+library["Data Structures"] = 500
+
+# Print updated dictionary
+print(library)
