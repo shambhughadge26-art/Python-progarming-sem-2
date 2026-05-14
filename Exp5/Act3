@@ -1,0 +1,26 @@
+# A shop inventory dictionary stores item name and quantity. Add new stock.
+"""
+Created on Mon Apr 27 10:15:07 2026
+
+@author: shambhuraj
+"""
+# Creating an empty dictionary
+inventory = {}
+
+# Adding initial items
+inventory["Apples"] = 50
+inventory["Bananas"] = 30
+inventory["Oranges"] = 20
+
+print("Inventory after adding items:")
+print(inventory)
+
+# Adding new stock
+inventory["Mangoes"] = 40
+print("\nInventory after adding new stock:")
+print(inventory)
+
+# Updating stock of an existing item
+inventory["Apples"] += 20
+print("\nInventory after updating stock:")
+print(inventory)
