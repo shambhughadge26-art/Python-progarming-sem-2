@@ -1,0 +1,11 @@
+# Movie Ticket Eligibility Program
+"""
+Created on Mon Mar 16 10:32:21 2026
+
+@author: shambhuraj
+"""
+age= int(input("enter your age:"))
+if age>= 18:
+    print("You are eligible to enter the movie")
+else:
+    print("sorry! You are not eligible to enter the movie.")
