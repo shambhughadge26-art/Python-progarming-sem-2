@@ -1,0 +1,11 @@
+# loan approval
+"""
+Created on Tue Feb 10 13:23:30 2026
+
+@author: shambhuraj
+"""
+salary= int(input("Enter salary:"))
+if salary>=25000:
+    print("Approed")
+else:
+    print("Rejected")
