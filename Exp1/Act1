@@ -1,0 +1,12 @@
+# Program to display name,address and contact number 
+"""
+Created on Mon Mar 16 10:55:55 2026
+
+@author: shanbhuraj
+"""
+name ="Shambhuraj Ghadge"
+address ="satara, maharashtra"
+contact ="7709720806"
+print("Name:",name)
+print("Address:",address)
+print("Contact Number",contact)
