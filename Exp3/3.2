@@ -1,0 +1,10 @@
+def simple_interest(principle,rate,time):
+  si = (principle*rate*time)/100
+  return si
+# Taking input from user
+p=float(input("enter principle amount:"))
+r=float(input("enter rate of interest:"))
+t=float(input("enter time (in years):"))
+#Function call
+interest=simple_interest(p,r,t)
+print("simple_interest is",interest)
